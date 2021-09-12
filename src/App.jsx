@@ -1,10 +1,10 @@
 
 import { useState } from 'react';
 import useLocalStorage from 'hooks/useLocalStorage';
-import Container from 'components/Container/Container';
-import ContactForm from 'components/ContactForm/ContactForm';
-import ContactList from 'components/ContactList/ContactList';
-import Filter from 'components/Filter/Filter';
+import Container from 'components/Container';
+import ContactForm from 'components/ContactForm';
+import ContactList from 'components/ContactList';
+import Filter from 'components/Filter';
 import { v4 as uuidv4 } from 'uuid';
 
 function App() {
