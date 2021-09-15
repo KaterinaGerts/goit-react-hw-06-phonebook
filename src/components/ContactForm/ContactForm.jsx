@@ -75,27 +75,7 @@ ContactForm.propTypes = {
       number: PropTypes.number.isRequired,
     }),
   ),
-};
-
-// const CheckedContactName = (contacts, newContact) => {
-//   const nameNormalize = contacts.name.toLowerCase();
-//     const checkedName = contacts.find(
-//       contact => nameNormalize === contact.name.toLowerCase(),
-//     );
-//     return checkedName
-//       ? alert(`${contacts.name} is already in contacts!`)
-//       :  [...contacts, newContact];
-// }
-
-
-//   const mapStateToProps = state => {
-//     const {item} = state.contacts; 
-//     const normalizedContacts = CheckedContactName(item);
-  
-//    return {
-//      contacts: normalizedContacts,
-//     }
-//   };
+};  
 
 const mapDispatchToProps = dispatch => ({
   onSubmit: value => dispatch(addContact(value)),
